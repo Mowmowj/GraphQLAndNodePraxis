@@ -13,7 +13,7 @@
             method:'POST', // graphql 只能用 post
             url:'http://localhost:4000/graphql',
             data: {
-                query:'{ hello,herry,dad}'
+                query:'{ hello,herry,floatNum,user{name age},display{screen light}}'
             }
         }).then(res=>{
             console.log(res);
