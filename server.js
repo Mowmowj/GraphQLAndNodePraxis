@@ -29,8 +29,9 @@ var schema = buildSchema(`
   }
   type Display {
     screen:String
-    light: Int
+    light: Int  
   }
+  type
 `);
 
 // The root provides a resolver function for each API endpoint
@@ -64,7 +65,8 @@ var root = {
             {money:30999,address:'深圳市'}
         ]
     }
-  }
+  },
+
 };
 
 var app = express();
