@@ -7,7 +7,7 @@ var cors = require('cors')
 var schema = buildSchema(`
 #Query 是一种对象类型
 #Query 是所有查询的入口点
-#Query 必须有 不能重复
+#Query 必须有 不能重复  
   type Query {
     hello: String
     herry: String
