@@ -31,7 +31,6 @@ var schema = buildSchema(`
     screen:String
     light: Int  
   }
-  type
 `);
 
 // The root provides a resolver function for each API endpoint
